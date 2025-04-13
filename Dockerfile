@@ -1,3 +1,5 @@
 FROM ubuntu:latest
 
-CMD entrypoint.sh
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+
+ENTRYPOINT entrypoint.sh
