@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-RUN entrypoint.sh
+CMD entrypoint.sh
