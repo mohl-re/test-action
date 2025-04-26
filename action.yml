@@ -1,0 +1,7 @@
+name: "My simple action that only does an echo"
+
+description: test
+
+runs:
+  using: docker
+  image: Dockerfile
